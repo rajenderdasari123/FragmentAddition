@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.appbasic.fragmentaddition.FragmentB">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/txtno2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter No here..."
+        android:background="#ffffff"
+        android:inputType="number"/>
+
+    <fragment
+        class="com.appbasic.fragmentaddition.FragmentC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment3"/>
+
+</LinearLayout>
